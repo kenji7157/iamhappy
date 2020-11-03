@@ -1,0 +1,19 @@
+{
+  "name": "iamhappy",
+  "version": "1.0.0",
+  "description": "#### npmユーザーの作成 - author情報の作成 ``` $ npm set init.author.name \"Kenji Kawanobe\" $ npm set init.author.email \"kawake.kk@gmail.com\" $ npm set init.author.url \"https://github.com/kenji7157\" ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenji7157/iamhappy.git"
+  },
+  "author": "Kenji Kawanobe <kawake.kk@gmail.com> (https://github.com/kenji7157)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenji7157/iamhappy/issues"
+  },
+  "homepage": "https://github.com/kenji7157/iamhappy#readme"
+}

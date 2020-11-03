@@ -21,7 +21,32 @@ Logged in as kenji7157 on https://registry.npmjs.org/.
 - githubにnpmパッケージ用のレポジトリを作成
 https://github.com/kenji7157/iamhappy
 
-- 作業ディレクトリでcloneする
+- cloneする
 ```
 $ git clone git@github.com:kenji7157/iamhappy
 ```
+以降は[iamhappy]で作業をする
+
+#### パッケージ情報の設定
+```
+$ npm init
+```
+全てデフォルトで作成
+
+#### プログラムの作成
+- index.jsの作成
+```
+$ touch index.js
+```
+
+```js
+// index.js
+function happy () {
+  console.log('I am Happy.');
+}
+
+module.exports = {
+  happy
+};
+```
+
