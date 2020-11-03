@@ -86,3 +86,32 @@ $ git tag -a v1.0.0 -m "My first version v1.0.0"
 ```
 $ git push origin tags/v1.0.0
 ```
+
+- npmレジストリにログインしてemailを登録しておく
+(手順1)[npm公式レジストリ](https://www.npmjs.com/email-edit )に[author情報の作成]で作成したアカウントでログインしておく。
+
+(手順2)メールアドレスを改めて設定する。
+
+(手順3)npmからメールが飛んでくるので認証する。
+
+- npmへの公開
+```
+$ npm publish ./
+npm notice 
+npm notice 📦  iamhappy@1.0.0
+npm notice === Tarball Contents === 
+npm notice 82B   index.js    
+npm notice 727B  package.json
+npm notice 2.9kB README.md   
+npm notice 1.1kB LICENSE.txt 
+npm notice === Tarball Details === 
+npm notice name:          iamhappy                                
+npm notice version:       1.0.0                                   
+npm notice package size:  2.0 kB                                  
+npm notice unpacked size: 4.8 kB                                  
+npm notice shasum:        add0e70067382c40b817f6d169f1b3be15b74a03
+npm notice integrity:     sha512-RS/+v5gU6VjhB[...]HfeTcBNz2REHw==
+npm notice total files:   4                                       
+npm notice 
++ iamhappy@1.0.0
+```
