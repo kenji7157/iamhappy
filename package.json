@@ -11,7 +11,7 @@
     "url": "git+https://github.com/kenji7157/iamhappy.git"
   },
   "author": "Kenji Kawanobe <kawake.kk@gmail.com> (https://github.com/kenji7157)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/kenji7157/iamhappy/issues"
   },
